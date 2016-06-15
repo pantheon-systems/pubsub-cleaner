@@ -21,7 +21,9 @@ Clean out subscriptions on a topic:
 pubsub-cleaner topic sometopic --project myproject --keep subname --no-op
 ```
 
-pretty self explanatory: - `--project` is the GCE project. The - `--keep` is a string match on subscriber names that you want to keep. - `--no-op` won't actually delete anything, just output what would be deleted
+-	`--project` is the GCE project.
+-	`--keep` is a string match on subscriber names that you want to keep.
+-	`--no-op` won't actually delete anything, just output what would be deleted
 
 Authentication
 ==============

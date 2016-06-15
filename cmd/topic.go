@@ -17,7 +17,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/pantheon-systems/pubsub-cleaner/pkg/pubsub"
+	"github.com/pantheon-systems/pubsub-cleaner/pkg/pscleaner"
 	"github.com/spf13/cobra"
 )
 
